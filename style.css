@@ -637,17 +637,3 @@ body {
         height: ;
     }
 }
-/* ===== Mobile Overflow Fix ===== */
-
-html,body{
-    overflow-x:hidden;
-}
-
-*{
-    box-sizing:border-box;
-}
-
-img{
-    max-width:100%;
-    height:auto;
-}
