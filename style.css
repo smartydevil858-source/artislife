@@ -624,85 +624,30 @@ body {
         flex-direction: column;
         align-items: flex-start;
     }
-.footer-container{
- display: flex;
- flex-direction: column;
- gap: 20px;
- width: 100%;
- box-sizing: border-box;
-}
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
     .footer-col{
         width: 100%;
-        box-sizing: border-box;
     }
     img{
         max-width: 100%;
         height: ;
     }
-
 }
+/* ===== Mobile Overflow Fix ===== */
+
 html,body{
- overflow-x:hidden;
- max-width:100%;
+    overflow-x:hidden;
 }
 
 *{
- box-sizing:border-box;
-}
-html, body {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.container,
-.footer-container {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-/* ===== Footer Mobile Fix ===== */
-
-.footer-container{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:space-between;
-  width:100%;
-  max-width:100%;
-  box-sizing:border-box;
-}
-
-.footer-col{
-  flex:1 1 250px;
-  margin-bottom:20px;
-  box-sizing:border-box;
-}
-
-/* Mobile view */
-
-@media (max-width:768px){
-
-.footer-container{
-  flex-direction:column;
-  padding:20px;
-}
-
-.footer-col{
-  width:100%;
-}
-
-}
-
-/* Extra overflow fix */
-
-html,body{
-  overflow-x:hidden;
+    box-sizing:border-box;
 }
 
 img{
-  max-width:100%;
-  height:auto;
+    max-width:100%;
+    height:auto;
 }
