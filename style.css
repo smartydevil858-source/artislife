@@ -636,4 +636,55 @@ body {
         max-width: 100%;
         height: ;
     }
+    /* ===== MOBILE OVERFLOW PERMANENT FIX ===== */
+
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+/* Container width fix */
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Image responsive fix */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Footer mobile fix */
+@media (max-width:768px){
+
+.footer-grid{
+  grid-template-columns:1fr;
+  gap:30px;
+}
+
+.footer-col{
+  width:100%;
+}
+
+/* Hero section fix */
+.hero .container{
+  flex-direction:column;
+}
+
+.about-content{
+  flex-direction:column;
+}
+
+}
+}
+
